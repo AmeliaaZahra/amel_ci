@@ -1,0 +1,14 @@
+.menu {
+    background-color: rgb(195, 195, 245);
+    height: 30px;
+    padding: 10px;
+}
+
+.menu a {
+    background-color: whitesmoke;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 10px;
+}

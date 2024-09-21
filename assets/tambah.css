@@ -1,0 +1,37 @@
+h1{
+    color: rgb(0, 0, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.tambah input[type=text]{
+    width: 35%;
+    color: white;
+    padding: 6px 7px;
+    border-radius: 10px;
+    margin-left: 32%;
+    border: none;
+    background-color: rgb(219, 224, 252);
+    cursor: pointer;
+}
+
+.tambah select{
+    width: 35%;
+    color: white;
+    padding: 6px 7px;
+    border-radius: 10px;
+    margin-left: 32%;
+    border: none;
+    background-color: rgb(219, 224, 252);
+    cursor: pointer;
+}
+
+.tambah input[type=submit]{
+    padding: 6px 7px;
+    color: white;
+    border-radius: 10px;
+    margin-left: 32%;
+    border: none;
+    background-color: rgb(149, 165, 250);
+    cursor: pointer;
+}
