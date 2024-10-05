@@ -22,7 +22,7 @@
             <tr>
                 <td><?= $ssw['NIS'] ?></td>
                 <td><?= $ssw['Nama'] ?></td>
-                <td><?= $ssw['Alamat'] ?></td>
+                <td><?= $ssw['alamat'] ?></td>
                 <td><?= $ssw['No_telp'] ?></td>
                 <td><a href="<?= base_url(); ?>admin/edit/<?= $ssw['NIS']?>">Edit</a></td>
                 <td><a onclick="return confirm ('yakiennn niehh mw hapuss??')" href="<?= base_url(); ?>admin/hapus/<?= $ssw['NIS']?>">hapus</a></td>

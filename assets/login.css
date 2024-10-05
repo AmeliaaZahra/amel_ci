@@ -1,3 +1,45 @@
-*{
-    font-family: sans-serif;
+.login input[type=text]{
+    width: 35%;
+    color: black;
+    padding: 6px 7px;
+    border-radius: 10px;
+    margin-left: 32%;
+    border: none;
+    background-color: cornflowerblue;
+    cursor: pointer;
+}
+
+.login input[type=password]{
+    width: 35%;
+    color: black;
+    padding: 6px 7px;
+    border-radius: 10px;
+    margin-left: 32%;
+    border: none;
+    background-color: cornflowerblue;
+    cursor: pointer;
+}
+
+.login input[type=submit]{
+    width: 30%;
+    color: black;
+    padding: 6px 6px;
+    border-radius: 10px;
+    margin-left: 35%;
+    border: none;
+    background-color: cornflowerblue;
+    cursor: pointer;
+}
+
+.daftar {
+    padding: 6px 7px;
+    margin-left: 43%;
+}
+
+.tdftr{
+    padding: 4px 5px;
+    margin-left: 3px;
+    font-size: 15px;
+    color: crimson;
+    text-decoration: none;
 }

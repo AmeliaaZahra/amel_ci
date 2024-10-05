@@ -5,7 +5,11 @@ class siswa_model extends CI_Model {
 
 	public function getsiswa()
 	{
-		return $this->db->get('siswa')->result_array();
+		//mengambil semua data dari tabel siswa
+		$this->db->select('*');
+		$this->db->from('siswa');
+		$this->db->join('alamat', 'alamat.id = siswa.id_alamat');
+		return $this->db->get()->result_array();
 	}
 
 	public function tambahsiswa()
@@ -13,7 +17,7 @@ class siswa_model extends CI_Model {
 			$data =
 			[
 					"nama" => $this->input->post('nama' , true),
-					"alamat" => $this->input->post('alamat' , true),
+					"id_alamat" => $this->input->post('alamat' , true),
 					"no_telp" => $this->input->post('no_telp' , true)
 			];
 
